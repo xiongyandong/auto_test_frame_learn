@@ -1,0 +1,6 @@
+python11期
+python11期最棒
+2020-12-16 09:25:25,243-DEBUG-log.py-python11-日志信息:python11期
+2020-12-16 09:25:25,243-ERROR-log.py-python11-日志信息:python11期最棒
+2020-12-16 11:37:27,562-DEBUG-log.py-python11-日志信息:python11期
+2020-12-16 11:37:27,562-ERROR-log.py-python11-日志信息:python11期最棒

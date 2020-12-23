@@ -1,0 +1,28 @@
+case1:
+  url: 'http://119.23.241.154:8080/futureloan/mvc/api/member/login'
+  data:
+    mobile: '18688773467'
+    pwd: '123456'
+  expected: '1001'
+  method: get
+case2:
+  url: 'http://119.23.241.154:8080/futureloan/mvc/api/member/login'
+  data:
+    mobile: '18688773467'
+    pwd: '12345689'
+  expected: '20111'
+  method: post
+case3:
+  url: 'http://119.23.241.154:8080/futureloan/mvc/api/member/recharge'
+  data:
+    mobile: '18688773467'
+    amount: '1000'
+  expected: '10001'
+  method: get
+case4:
+  url: 'http://119.23.241.154:8080/futureloan/mvc/api/member/recharge'
+  data:
+    mobile: '18688773467'
+    amount: '-100'
+  expected: '20117'
+  method: post
