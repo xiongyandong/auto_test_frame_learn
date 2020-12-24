@@ -12,6 +12,3 @@ class Setting:
 
 if __name__ == '__main__':
     print(Setting.BaseDir)
-
-
-    print('ssss')
