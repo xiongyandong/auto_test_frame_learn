@@ -25,7 +25,7 @@ class TestHttp(unittest.TestCase):
         except AssertionError as e:
             load_object.write_back(case_data['module'], case_data['case_id'] + 1, 9, 'Fail')
             MyLog().my_log(e, 'ERROR')
-            raise e
+            # raise e
         # res = HttpRequest().general_request(case_data['method'], case_data['url'], case_data['data'])
         # if res.cookies:
         #     setattr(Setting, 'Cookie', res.cookies)
