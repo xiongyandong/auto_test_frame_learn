@@ -26,8 +26,18 @@ class Page:
     def input_text(self, loc, text):
         self.find_element(loc).send_keys(text)
 
-    def click(self, loc):
-        self.find_element(loc).click()
+    def click(self, loc, doc=''):
+        # 找元素
+        # 对元素进行操作
+        ele = self.find_element(loc,doc)
+        try:
+            ele.click()
+        except:
+            self.logs.my_log('等待元素点击失败！！！', 'EXCEPTION')
+            # 截图
+            self.save_screenshot(doc)
+            raise
+
 
     def get_title(self):
         return self.drive.title
