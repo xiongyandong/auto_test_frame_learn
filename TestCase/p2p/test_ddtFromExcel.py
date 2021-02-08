@@ -3,11 +3,10 @@ from tools.http_request import HttpRequest
 from Base.setting import Setting
 from ddt import ddt, unpack, data, file_data
 from tools.get_data_from_p2p import *
-
 from tools.project_path import ProjectPath
 load_object = LoadData(ProjectPath.p2p_data_path, ProjectPath.p2p_module)
 test_data_formal = load_object.load_excel()
-
+log_file_path = r'D:\auto_frame\Logs\p2pLog\test.txt'
 
 @ddt
 class TestHttp(unittest.TestCase):
@@ -24,7 +23,7 @@ class TestHttp(unittest.TestCase):
             load_object.write_back(case_data['module'], case_data['case_id'] + 1, 9, 'Pass')
         except AssertionError as e:
             load_object.write_back(case_data['module'], case_data['case_id'] + 1, 9, 'Fail')
-            MyLog().my_log(e, 'ERROR')
+            MyLog(log_file_path).my_log(e, 'ERROR')
             # raise e
         # res = HttpRequest().general_request(case_data['method'], case_data['url'], case_data['data'])
         # if res.cookies:

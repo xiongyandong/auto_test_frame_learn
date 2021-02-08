@@ -7,11 +7,11 @@ cf = configparser.ConfigParser()
 cf.read('case.config', encoding='utf-8')
 
 # 读取配置文件数据
-res_1 = cf.get('MODE', 'mode')  # 需传section和option两个参数
+res_1 = cf.get('WORKBOOK', 'module')  # 需传section和option两个参数
 print(res_1)
-
-res_2 = cf['MODE']['mode']
-print(res_2)
-
-print(cf.sections())
+#
+# res_2 = cf['MODE']['mode']
+# print(res_2)
+#
+# print(cf.sections())
 print(cf.items('PYTHON11'))  # 取到某个片区下的option和value,存在一个元组里面并返回多个元组组成的列表

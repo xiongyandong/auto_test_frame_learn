@@ -9,10 +9,11 @@ import os
 
 
 class MyLog:
-    logPath = os.path.join(Setting.BaseDir, r'Logs\p2pLog\test.txt')
-    my_logger = logging.getLogger('myLog')
-    fh = logging.FileHandler(logPath, encoding='utf-8')
-    formatter = logging.Formatter("%(asctime)s-%(levelname)s-%(filename)s-%(name)s-日志信息:%(message)s")
+    def __init__(self, modulePath):
+        self.logPath = os.path.join(Setting.BaseDir, modulePath)
+        self.my_logger = logging.getLogger('myLog')
+        self.fh = logging.FileHandler(self.logPath, encoding='utf-8')
+        self.formatter = logging.Formatter("%(asctime)s-%(levelname)s-%(filename)s-%(name)s-日志信息:%(message)s")
 
     def my_log(self, msg, level):
         self.my_logger.setLevel(level)
@@ -22,9 +23,11 @@ class MyLog:
         if level == 'DEBUG':
             self.my_logger.debug(msg)
         elif level == 'INFO':
-            self.my_logger.error(msg)
+            self.my_logger.info(msg)
         elif level == 'WARNING':
             self.my_logger.warning(msg)
+        elif level == 'EXCEPTION':
+            self.my_logger.exception(msg)
         elif level == 'ERROR':
             self.my_logger.error(msg)
         elif level == 'CRITICAL':
@@ -35,4 +38,4 @@ class MyLog:
 
 
 if __name__ == '__main__':
-    MyLog().my_log('hhhh','ESDAS')
+    MyLog(os.path.dirname(__file__)).my_log('hhhh','ESDAS')

@@ -9,7 +9,7 @@ class TestHttp(unittest.TestCase):
         self.recharge_url = 'http://119.23.241.154:8080/futureloan/mvc/api/member/recharge'
 
     def __init__(self, methodName, url, data, method, expected):
-        super(TestHttp,self).__init__(methodName)  # 重写父类方法 保留父类__init__ 方法属性 又添加自己子类的属性
+        super(TestHttp, self).__init__(methodName)  # 重写父类方法 保留父类__init__ 方法属性 又添加自己子类的属性
         self.url = url
         self.data = data
         self.method = method

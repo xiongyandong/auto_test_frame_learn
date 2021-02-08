@@ -22,6 +22,3 @@ if __name__ == '__main__':
     filepath = os.path.join(report_path, report_name)
     if filepath:
         SendEmail.send_email(filepath)
-
-
-
