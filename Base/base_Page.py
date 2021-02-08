@@ -29,7 +29,8 @@ class Page:
     def click(self, loc, doc=''):
         # 找元素
         # 对元素进行操作
-        ele = self.find_element(loc,doc)
+        ele = self.find_element(loc, doc)
+        self.logs.my_log('点击元素：{}'.format(loc), 'INFO')
         try:
             ele.click()
         except:
