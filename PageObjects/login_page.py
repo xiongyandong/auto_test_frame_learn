@@ -1,24 +1,22 @@
 from Base.base_Page import Page
-from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+
 from LocatorEmelent.SassWebsites.loginPageLocatorEmelent import *
 import time
 
 
 class LoginPage(Page):
+    doc = 'login'
+
     def login(self, username, pwd):
         # 输入用户名
         # 输入密码
         # 点击提交
-        WebDriverWait(self.drive, 20).until(EC.visibility_of_element_located(sign_in_ele))
-        self.click(sign_in_ele)
-        self.input_text(name_ele, username)
-        self.input_text(pwd_ele, pwd)
-        self.click(login_button)
+        self.wait_eleVisible(sign_in_ele, doc=self.doc)
+        self.click(sign_in_ele, self.doc)
+        self.input_text(name_ele, username, self.doc)
+        self.input_text(pwd_ele, pwd, self.doc)
+        self.click(login_button, self.doc)
 
     def get_errorMsg_from_loginArea(self):
-        WebDriverWait(self.drive, 20).until(EC.visibility_of_element_located(loinNameOrPasswordErrorToast))
+        self.wait_eleVisible(loinNameOrPasswordErrorToast, doc=self.doc)
         return self.find_element(loinNameOrPasswordErrorToast).text
-
-
-

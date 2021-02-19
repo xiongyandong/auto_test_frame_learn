@@ -1,0 +1,239 @@
+2021-02-18 15:08:27,888-INFO-log.py-myLog-日志信息:我已经等待啦
+2021-02-18 15:08:27,910-INFO-log.py-myLog-日志信息:查找元素('class name', 'Header_loginBtn__3_BKD')
+2021-02-18 15:08:27,916-INFO-log.py-myLog-日志信息:点击元素：('class name', 'Header_loginBtn__3_BKD')
+2021-02-18 15:08:30,336-INFO-log.py-myLog-日志信息:截屏成功，文件路径为D:\auto_frame\Outputs\screenshots\login\login_2021_02_18_15_08_29.png
+2021-02-18 15:08:30,336-INFO-log.py-myLog-日志信息:查找元素('xpath', '//div[@class="verify-input-wrapper"]/input[@type="text"]')
+2021-02-18 15:08:30,514-INFO-log.py-myLog-日志信息:查找元素('xpath', '//div[@class="verify-input-wrapper"]/input[@type="password"]')
+2021-02-18 15:08:30,592-INFO-log.py-myLog-日志信息:查找元素('class name', 'meo-button')
+2021-02-18 15:08:30,617-INFO-log.py-myLog-日志信息:点击元素：('class name', 'meo-button')
+2021-02-18 15:08:33,016-INFO-log.py-myLog-日志信息:截屏成功，文件路径为D:\auto_frame\Outputs\screenshots\login\login_2021_02_18_15_08_32.png
+2021-02-18 15:08:33,038-INFO-log.py-myLog-日志信息:查找元素('class name', 'za-toast__container')
+2021-02-18 15:08:33,110-INFO-log.py-myLog-日志信息:我已经刷新啦
+2021-02-18 15:08:35,111-INFO-log.py-myLog-日志信息:我已经等待啦
+2021-02-18 15:08:35,129-INFO-log.py-myLog-日志信息:查找元素('class name', 'Header_loginBtn__3_BKD')
+2021-02-18 15:08:35,136-INFO-log.py-myLog-日志信息:点击元素：('class name', 'Header_loginBtn__3_BKD')
+2021-02-18 15:08:37,555-INFO-log.py-myLog-日志信息:截屏成功，文件路径为D:\auto_frame\Outputs\screenshots\login\login_2021_02_18_15_08_37.png
+2021-02-18 15:08:37,555-INFO-log.py-myLog-日志信息:查找元素('xpath', '//div[@class="verify-input-wrapper"]/input[@type="text"]')
+2021-02-18 15:08:37,664-INFO-log.py-myLog-日志信息:查找元素('xpath', '//div[@class="verify-input-wrapper"]/input[@type="password"]')
+2021-02-18 15:08:37,731-INFO-log.py-myLog-日志信息:查找元素('class name', 'meo-button')
+2021-02-18 15:08:37,736-INFO-log.py-myLog-日志信息:点击元素：('class name', 'meo-button')
+2021-02-18 15:08:40,131-INFO-log.py-myLog-日志信息:截屏成功，文件路径为D:\auto_frame\Outputs\screenshots\login\login_2021_02_18_15_08_39.png
+2021-02-18 15:08:40,147-INFO-log.py-myLog-日志信息:查找元素('class name', 'za-toast__container')
+2021-02-18 15:08:40,219-INFO-log.py-myLog-日志信息:我已经刷新啦
+2021-02-18 15:08:42,219-INFO-log.py-myLog-日志信息:我已经等待啦
+2021-02-18 15:08:42,235-INFO-log.py-myLog-日志信息:查找元素('class name', 'Header_loginBtn__3_BKD')
+2021-02-18 15:08:42,240-INFO-log.py-myLog-日志信息:点击元素：('class name', 'Header_loginBtn__3_BKD')
+2021-02-18 15:08:44,667-INFO-log.py-myLog-日志信息:截屏成功，文件路径为D:\auto_frame\Outputs\screenshots\login\login_2021_02_18_15_08_44.png
+2021-02-18 15:08:44,667-INFO-log.py-myLog-日志信息:查找元素('xpath', '//div[@class="verify-input-wrapper"]/input[@type="text"]')
+2021-02-18 15:08:44,809-INFO-log.py-myLog-日志信息:查找元素('xpath', '//div[@class="verify-input-wrapper"]/input[@type="password"]')
+2021-02-18 15:08:44,875-INFO-log.py-myLog-日志信息:查找元素('class name', 'meo-button')
+2021-02-18 15:08:44,881-INFO-log.py-myLog-日志信息:点击元素：('class name', 'meo-button')
+2021-02-18 15:08:47,275-INFO-log.py-myLog-日志信息:截屏成功，文件路径为D:\auto_frame\Outputs\screenshots\login\login_2021_02_18_15_08_46.png
+2021-02-18 15:08:49,369-INFO-log.py-myLog-日志信息:我已经刷新啦
+2021-02-18 17:13:01,944-INFO-log.py-myLog-日志信息:我已经等待啦
+2021-02-18 17:13:01,944-INFO-log.py-myLog-日志信息:等待元素 ('class name', 'Header_loginBtn__3_BKD') 可见
+2021-02-18 17:13:01,966-INFO-log.py-myLog-日志信息:等待结束，等待时常为0.02
+2021-02-18 17:13:01,966-INFO-log.py-myLog-日志信息:查找元素('class name', 'Header_loginBtn__3_BKD')
+2021-02-18 17:13:01,975-INFO-log.py-myLog-日志信息:点击元素：('class name', 'Header_loginBtn__3_BKD')
+2021-02-18 17:13:04,435-INFO-log.py-myLog-日志信息:截屏成功，文件路径为D:\auto_frame\Outputs\screenshots\login\login_<module 'time' (built-in)>.png
+2021-02-18 17:13:04,435-INFO-log.py-myLog-日志信息:查找元素('xpath', '//div[@class="verify-input-wrapper"]/input[@type="text"]')
+2021-02-18 17:13:04,551-INFO-log.py-myLog-日志信息:查找元素('xpath', '//div[@class="verify-input-wrapper"]/input[@type="password"]')
+2021-02-18 17:13:04,628-INFO-log.py-myLog-日志信息:查找元素('class name', 'meo-button')
+2021-02-18 17:13:04,641-INFO-log.py-myLog-日志信息:点击元素：('class name', 'meo-button')
+2021-02-18 17:13:07,043-INFO-log.py-myLog-日志信息:截屏成功，文件路径为D:\auto_frame\Outputs\screenshots\login\login_<module 'time' (built-in)>.png
+2021-02-18 17:13:07,099-INFO-log.py-myLog-日志信息:我已经刷新啦
+2021-02-18 17:13:09,101-INFO-log.py-myLog-日志信息:我已经等待啦
+2021-02-18 17:13:09,101-INFO-log.py-myLog-日志信息:等待元素 ('class name', 'Header_loginBtn__3_BKD') 可见
+2021-02-18 17:13:09,143-INFO-log.py-myLog-日志信息:等待结束，等待时常为0.04
+2021-02-18 17:13:09,143-INFO-log.py-myLog-日志信息:查找元素('class name', 'Header_loginBtn__3_BKD')
+2021-02-18 17:13:09,151-INFO-log.py-myLog-日志信息:点击元素：('class name', 'Header_loginBtn__3_BKD')
+2021-02-18 17:13:11,556-INFO-log.py-myLog-日志信息:截屏成功，文件路径为D:\auto_frame\Outputs\screenshots\login\login_<module 'time' (built-in)>.png
+2021-02-18 17:13:11,556-INFO-log.py-myLog-日志信息:查找元素('xpath', '//div[@class="verify-input-wrapper"]/input[@type="text"]')
+2021-02-18 17:13:11,646-INFO-log.py-myLog-日志信息:查找元素('xpath', '//div[@class="verify-input-wrapper"]/input[@type="password"]')
+2021-02-18 17:13:11,708-INFO-log.py-myLog-日志信息:查找元素('class name', 'meo-button')
+2021-02-18 17:13:11,715-INFO-log.py-myLog-日志信息:点击元素：('class name', 'meo-button')
+2021-02-18 17:13:14,108-INFO-log.py-myLog-日志信息:截屏成功，文件路径为D:\auto_frame\Outputs\screenshots\login\login_<module 'time' (built-in)>.png
+2021-02-18 17:13:14,169-INFO-log.py-myLog-日志信息:我已经刷新啦
+2021-02-18 17:13:16,171-INFO-log.py-myLog-日志信息:我已经等待啦
+2021-02-18 17:13:16,171-INFO-log.py-myLog-日志信息:等待元素 ('class name', 'Header_loginBtn__3_BKD') 可见
+2021-02-18 17:13:16,188-INFO-log.py-myLog-日志信息:等待结束，等待时常为0.02
+2021-02-18 17:13:16,188-INFO-log.py-myLog-日志信息:查找元素('class name', 'Header_loginBtn__3_BKD')
+2021-02-18 17:13:16,195-INFO-log.py-myLog-日志信息:点击元素：('class name', 'Header_loginBtn__3_BKD')
+2021-02-18 17:13:18,593-INFO-log.py-myLog-日志信息:截屏成功，文件路径为D:\auto_frame\Outputs\screenshots\login\login_<module 'time' (built-in)>.png
+2021-02-18 17:13:18,593-INFO-log.py-myLog-日志信息:查找元素('xpath', '//div[@class="verify-input-wrapper"]/input[@type="text"]')
+2021-02-18 17:13:18,696-INFO-log.py-myLog-日志信息:查找元素('xpath', '//div[@class="verify-input-wrapper"]/input[@type="password"]')
+2021-02-18 17:13:18,752-INFO-log.py-myLog-日志信息:查找元素('class name', 'meo-button')
+2021-02-18 17:13:18,759-INFO-log.py-myLog-日志信息:点击元素：('class name', 'meo-button')
+2021-02-18 17:13:21,162-INFO-log.py-myLog-日志信息:截屏成功，文件路径为D:\auto_frame\Outputs\screenshots\login\login_<module 'time' (built-in)>.png
+2021-02-18 17:13:23,257-INFO-log.py-myLog-日志信息:我已经刷新啦
+2021-02-18 17:20:33,930-INFO-log.py-myLog-日志信息:我已经等待啦
+2021-02-18 17:20:33,930-INFO-log.py-myLog-日志信息:等待元素 ('class name', 'Header_loginBtn__3_BKD') 可见
+2021-02-18 17:20:33,958-INFO-log.py-myLog-日志信息:等待结束，等待时常为0.03
+2021-02-18 17:20:33,958-INFO-log.py-myLog-日志信息:查找元素('class name', 'Header_loginBtn__3_BKD')
+2021-02-18 17:20:33,964-INFO-log.py-myLog-日志信息:点击元素：('class name', 'Header_loginBtn__3_BKD')
+2021-02-18 17:20:36,413-INFO-log.py-myLog-日志信息:截屏成功，文件路径为D:\auto_frame\Outputs\screenshots\login\login_2021_02_18_17_20_36.png
+2021-02-18 17:20:36,413-INFO-log.py-myLog-日志信息:查找元素('xpath', '//div[@class="verify-input-wrapper"]/input[@type="text"]')
+2021-02-18 17:20:36,523-INFO-log.py-myLog-日志信息:查找元素('xpath', '//div[@class="verify-input-wrapper"]/input[@type="password"]')
+2021-02-18 17:20:36,590-INFO-log.py-myLog-日志信息:查找元素('class name', 'meo-button')
+2021-02-18 17:20:36,599-INFO-log.py-myLog-日志信息:点击元素：('class name', 'meo-button')
+2021-02-18 17:20:38,992-INFO-log.py-myLog-日志信息:截屏成功，文件路径为D:\auto_frame\Outputs\screenshots\login\login_2021_02_18_17_20_38.png
+2021-02-18 17:20:38,992-INFO-log.py-myLog-日志信息:等待元素 ('class name', 'za-toast__container') 可见
+2021-02-18 17:20:39,014-INFO-log.py-myLog-日志信息:等待结束，等待时常为0.02
+2021-02-18 17:20:39,014-INFO-log.py-myLog-日志信息:查找元素('class name', 'za-toast__container')
+2021-02-18 17:20:39,150-INFO-log.py-myLog-日志信息:我已经刷新啦
+2021-02-18 17:20:41,150-INFO-log.py-myLog-日志信息:我已经等待啦
+2021-02-18 17:20:41,150-INFO-log.py-myLog-日志信息:等待元素 ('class name', 'Header_loginBtn__3_BKD') 可见
+2021-02-18 17:20:41,172-INFO-log.py-myLog-日志信息:等待结束，等待时常为0.02
+2021-02-18 17:20:41,172-INFO-log.py-myLog-日志信息:查找元素('class name', 'Header_loginBtn__3_BKD')
+2021-02-18 17:20:41,177-INFO-log.py-myLog-日志信息:点击元素：('class name', 'Header_loginBtn__3_BKD')
+2021-02-18 17:20:43,572-INFO-log.py-myLog-日志信息:截屏成功，文件路径为D:\auto_frame\Outputs\screenshots\login\login_2021_02_18_17_20_43.png
+2021-02-18 17:20:43,572-INFO-log.py-myLog-日志信息:查找元素('xpath', '//div[@class="verify-input-wrapper"]/input[@type="text"]')
+2021-02-18 17:20:43,667-INFO-log.py-myLog-日志信息:查找元素('xpath', '//div[@class="verify-input-wrapper"]/input[@type="password"]')
+2021-02-18 17:20:43,730-INFO-log.py-myLog-日志信息:查找元素('class name', 'meo-button')
+2021-02-18 17:20:43,736-INFO-log.py-myLog-日志信息:点击元素：('class name', 'meo-button')
+2021-02-18 17:20:46,155-INFO-log.py-myLog-日志信息:截屏成功，文件路径为D:\auto_frame\Outputs\screenshots\login\login_2021_02_18_17_20_45.png
+2021-02-18 17:20:46,155-INFO-log.py-myLog-日志信息:等待元素 ('class name', 'za-toast__container') 可见
+2021-02-18 17:20:46,171-INFO-log.py-myLog-日志信息:等待结束，等待时常为0.02
+2021-02-18 17:20:46,172-INFO-log.py-myLog-日志信息:查找元素('class name', 'za-toast__container')
+2021-02-18 17:20:46,244-INFO-log.py-myLog-日志信息:我已经刷新啦
+2021-02-18 17:20:48,244-INFO-log.py-myLog-日志信息:我已经等待啦
+2021-02-18 17:20:48,244-INFO-log.py-myLog-日志信息:等待元素 ('class name', 'Header_loginBtn__3_BKD') 可见
+2021-02-18 17:20:48,264-INFO-log.py-myLog-日志信息:等待结束，等待时常为0.02
+2021-02-18 17:20:48,265-INFO-log.py-myLog-日志信息:查找元素('class name', 'Header_loginBtn__3_BKD')
+2021-02-18 17:20:48,272-INFO-log.py-myLog-日志信息:点击元素：('class name', 'Header_loginBtn__3_BKD')
+2021-02-18 17:20:50,683-INFO-log.py-myLog-日志信息:截屏成功，文件路径为D:\auto_frame\Outputs\screenshots\login\login_2021_02_18_17_20_50.png
+2021-02-18 17:20:50,684-INFO-log.py-myLog-日志信息:查找元素('xpath', '//div[@class="verify-input-wrapper"]/input[@type="text"]')
+2021-02-18 17:20:50,773-INFO-log.py-myLog-日志信息:查找元素('xpath', '//div[@class="verify-input-wrapper"]/input[@type="password"]')
+2021-02-18 17:20:50,830-INFO-log.py-myLog-日志信息:查找元素('class name', 'meo-button')
+2021-02-18 17:20:50,836-INFO-log.py-myLog-日志信息:点击元素：('class name', 'meo-button')
+2021-02-18 17:20:53,234-INFO-log.py-myLog-日志信息:截屏成功，文件路径为D:\auto_frame\Outputs\screenshots\login\login_2021_02_18_17_20_52.png
+2021-02-18 17:20:55,329-INFO-log.py-myLog-日志信息:我已经刷新啦
+2021-02-18 17:39:38,848-INFO-log.py-myLog-日志信息:我已经等待啦
+2021-02-18 17:39:38,848-INFO-log.py-myLog-日志信息:等待元素 ('class name', 'Header_loginBtn__3_BKD') 可见
+2021-02-18 17:39:38,848-ERROR-log.py-myLog-日志信息:等待元素可见失败！！！
+2021-02-18 17:39:39,200-INFO-log.py-myLog-日志信息:截屏成功，文件路径为D:\auto_frame\Outputs\screenshots\_2021_02_18_17_39_38.png
+2021-02-18 17:39:39,320-INFO-log.py-myLog-日志信息:我已经刷新啦
+2021-02-18 17:39:41,344-INFO-log.py-myLog-日志信息:我已经等待啦
+2021-02-18 17:39:41,344-INFO-log.py-myLog-日志信息:等待元素 ('class name', 'Header_loginBtn__3_BKD') 可见
+2021-02-18 17:39:41,344-ERROR-log.py-myLog-日志信息:等待元素可见失败！！！
+2021-02-18 17:39:41,686-INFO-log.py-myLog-日志信息:截屏成功，文件路径为D:\auto_frame\Outputs\screenshots\_2021_02_18_17_39_41.png
+2021-02-18 17:39:41,741-INFO-log.py-myLog-日志信息:我已经刷新啦
+2021-02-18 17:39:43,743-INFO-log.py-myLog-日志信息:我已经等待啦
+2021-02-18 17:39:43,743-INFO-log.py-myLog-日志信息:等待元素 ('class name', 'Header_loginBtn__3_BKD') 可见
+2021-02-18 17:39:43,743-ERROR-log.py-myLog-日志信息:等待元素可见失败！！！
+2021-02-18 17:39:44,130-INFO-log.py-myLog-日志信息:截屏成功，文件路径为D:\auto_frame\Outputs\screenshots\_2021_02_18_17_39_43.png
+2021-02-18 17:39:44,195-INFO-log.py-myLog-日志信息:我已经刷新啦
+2021-02-18 17:46:10,722-INFO-log.py-myLog-日志信息:我已经等待啦
+2021-02-18 17:46:10,722-INFO-log.py-myLog-日志信息:等待元素 ('class name', 'Header_loginBtn__3_BKD') 可见
+2021-02-18 17:46:10,722-ERROR-log.py-myLog-日志信息:等待元素可见失败！！！
+2021-02-18 17:46:11,092-INFO-log.py-myLog-日志信息:截屏成功，文件路径为D:\auto_frame\Outputs\screenshots\_2021_02_18_17_46_10.png
+2021-02-18 17:46:11,210-INFO-log.py-myLog-日志信息:我已经刷新啦
+2021-02-18 17:46:13,213-INFO-log.py-myLog-日志信息:我已经等待啦
+2021-02-18 17:46:13,213-INFO-log.py-myLog-日志信息:等待元素 ('class name', 'Header_loginBtn__3_BKD') 可见
+2021-02-18 17:46:13,213-ERROR-log.py-myLog-日志信息:等待元素可见失败！！！
+2021-02-18 17:46:13,563-INFO-log.py-myLog-日志信息:截屏成功，文件路径为D:\auto_frame\Outputs\screenshots\_2021_02_18_17_46_13.png
+2021-02-18 17:46:13,618-INFO-log.py-myLog-日志信息:我已经刷新啦
+2021-02-18 17:46:15,620-INFO-log.py-myLog-日志信息:我已经等待啦
+2021-02-18 17:46:15,620-INFO-log.py-myLog-日志信息:等待元素 ('class name', 'Header_loginBtn__3_BKD') 可见
+2021-02-18 17:46:15,620-ERROR-log.py-myLog-日志信息:等待元素可见失败！！！
+2021-02-18 17:46:15,971-INFO-log.py-myLog-日志信息:截屏成功，文件路径为D:\auto_frame\Outputs\screenshots\_2021_02_18_17_46_15.png
+2021-02-18 17:46:16,027-INFO-log.py-myLog-日志信息:我已经刷新啦
+2021-02-18 17:50:14,873-INFO-log.py-myLog-日志信息:我已经等待啦
+2021-02-18 17:50:14,874-INFO-log.py-myLog-日志信息:等待元素 ('class name', 'Header_loginBtn__3_BKD') 可见
+2021-02-18 17:50:14,874-ERROR-log.py-myLog-日志信息:等待元素可见失败！！！
+2021-02-18 17:50:15,261-INFO-log.py-myLog-日志信息:截屏成功，文件路径为D:\auto_frame\Outputs\screenshots\_2021_02_18_17_50_14.png
+2021-02-18 17:50:15,378-INFO-log.py-myLog-日志信息:我已经刷新啦
+2021-02-18 17:50:17,382-INFO-log.py-myLog-日志信息:我已经等待啦
+2021-02-18 17:50:17,382-INFO-log.py-myLog-日志信息:等待元素 ('class name', 'Header_loginBtn__3_BKD') 可见
+2021-02-18 17:50:17,382-ERROR-log.py-myLog-日志信息:等待元素可见失败！！！
+2021-02-18 17:50:17,742-INFO-log.py-myLog-日志信息:截屏成功，文件路径为D:\auto_frame\Outputs\screenshots\_2021_02_18_17_50_17.png
+2021-02-18 17:50:17,800-INFO-log.py-myLog-日志信息:我已经刷新啦
+2021-02-18 17:50:19,802-INFO-log.py-myLog-日志信息:我已经等待啦
+2021-02-18 17:50:19,802-INFO-log.py-myLog-日志信息:等待元素 ('class name', 'Header_loginBtn__3_BKD') 可见
+2021-02-18 17:50:19,802-ERROR-log.py-myLog-日志信息:等待元素可见失败！！！
+2021-02-18 17:50:20,153-INFO-log.py-myLog-日志信息:截屏成功，文件路径为D:\auto_frame\Outputs\screenshots\_2021_02_18_17_50_19.png
+2021-02-18 17:50:20,210-INFO-log.py-myLog-日志信息:我已经刷新啦
+2021-02-18 17:53:04,600-INFO-log.py-myLog-日志信息:我已经等待啦
+2021-02-18 17:53:04,600-INFO-log.py-myLog-日志信息:等待元素 ('class name', 'Header_loginBtn__3_BKD') 可见
+2021-02-18 17:53:04,622-INFO-log.py-myLog-日志信息:等待结束，等待时常为0.02
+2021-02-18 17:53:04,623-INFO-log.py-myLog-日志信息:查找元素('class name', 'Header_loginBtn__3_BKD')
+2021-02-18 17:53:04,629-INFO-log.py-myLog-日志信息:点击元素：('class name', 'Header_loginBtn__3_BKD')
+2021-02-18 17:53:07,088-INFO-log.py-myLog-日志信息:截屏成功，文件路径为D:\auto_frame\Outputs\screenshots\login\login_2021_02_18_17_53_06.png
+2021-02-18 17:53:07,088-INFO-log.py-myLog-日志信息:查找元素('xpath', '//div[@class="verify-input-wrapper"]/input[@type="text"]')
+2021-02-18 17:53:07,242-INFO-log.py-myLog-日志信息:查找元素('xpath', '//div[@class="verify-input-wrapper"]/input[@type="password"]')
+2021-02-18 17:53:07,310-INFO-log.py-myLog-日志信息:查找元素('class name', 'meo-button')
+2021-02-18 17:53:07,334-INFO-log.py-myLog-日志信息:点击元素：('class name', 'meo-button')
+2021-02-18 17:53:09,763-INFO-log.py-myLog-日志信息:截屏成功，文件路径为D:\auto_frame\Outputs\screenshots\login\login_2021_02_18_17_53_09.png
+2021-02-18 17:53:09,763-INFO-log.py-myLog-日志信息:等待元素 ('class name', 'za-toast__container') 可见
+2021-02-18 17:53:09,786-INFO-log.py-myLog-日志信息:等待结束，等待时常为0.02
+2021-02-18 17:53:09,786-INFO-log.py-myLog-日志信息:查找元素('class name', 'za-toast__container')
+2021-02-18 17:53:09,861-INFO-log.py-myLog-日志信息:我已经刷新啦
+2021-02-18 17:53:11,862-INFO-log.py-myLog-日志信息:我已经等待啦
+2021-02-18 17:53:11,862-INFO-log.py-myLog-日志信息:等待元素 ('class name', 'Header_loginBtn__3_BKD') 可见
+2021-02-18 17:53:11,883-INFO-log.py-myLog-日志信息:等待结束，等待时常为0.02
+2021-02-18 17:53:11,883-INFO-log.py-myLog-日志信息:查找元素('class name', 'Header_loginBtn__3_BKD')
+2021-02-18 17:53:11,889-INFO-log.py-myLog-日志信息:点击元素：('class name', 'Header_loginBtn__3_BKD')
+2021-02-18 17:53:14,306-INFO-log.py-myLog-日志信息:截屏成功，文件路径为D:\auto_frame\Outputs\screenshots\login\login_2021_02_18_17_53_13.png
+2021-02-18 17:53:14,307-INFO-log.py-myLog-日志信息:查找元素('xpath', '//div[@class="verify-input-wrapper"]/input[@type="text"]')
+2021-02-18 17:53:14,400-INFO-log.py-myLog-日志信息:查找元素('xpath', '//div[@class="verify-input-wrapper"]/input[@type="password"]')
+2021-02-18 17:53:14,463-INFO-log.py-myLog-日志信息:查找元素('class name', 'meo-button')
+2021-02-18 17:53:14,470-INFO-log.py-myLog-日志信息:点击元素：('class name', 'meo-button')
+2021-02-18 17:53:16,880-INFO-log.py-myLog-日志信息:截屏成功，文件路径为D:\auto_frame\Outputs\screenshots\login\login_2021_02_18_17_53_16.png
+2021-02-18 17:53:16,880-INFO-log.py-myLog-日志信息:等待元素 ('class name', 'za-toast__container') 可见
+2021-02-18 17:53:16,896-INFO-log.py-myLog-日志信息:等待结束，等待时常为0.02
+2021-02-18 17:53:16,896-INFO-log.py-myLog-日志信息:查找元素('class name', 'za-toast__container')
+2021-02-18 17:53:16,967-INFO-log.py-myLog-日志信息:我已经刷新啦
+2021-02-18 17:53:18,969-INFO-log.py-myLog-日志信息:我已经等待啦
+2021-02-18 17:53:18,969-INFO-log.py-myLog-日志信息:等待元素 ('class name', 'Header_loginBtn__3_BKD') 可见
+2021-02-18 17:53:18,986-INFO-log.py-myLog-日志信息:等待结束，等待时常为0.02
+2021-02-18 17:53:18,986-INFO-log.py-myLog-日志信息:查找元素('class name', 'Header_loginBtn__3_BKD')
+2021-02-18 17:53:18,992-INFO-log.py-myLog-日志信息:点击元素：('class name', 'Header_loginBtn__3_BKD')
+2021-02-18 17:53:21,394-INFO-log.py-myLog-日志信息:截屏成功，文件路径为D:\auto_frame\Outputs\screenshots\login\login_2021_02_18_17_53_21.png
+2021-02-18 17:53:21,394-INFO-log.py-myLog-日志信息:查找元素('xpath', '//div[@class="verify-input-wrapper"]/input[@type="text"]')
+2021-02-18 17:53:21,502-INFO-log.py-myLog-日志信息:查找元素('xpath', '//div[@class="verify-input-wrapper"]/input[@type="password"]')
+2021-02-18 17:53:21,567-INFO-log.py-myLog-日志信息:查找元素('class name', 'meo-button')
+2021-02-18 17:53:21,576-INFO-log.py-myLog-日志信息:点击元素：('class name', 'meo-button')
+2021-02-18 17:53:23,985-INFO-log.py-myLog-日志信息:截屏成功，文件路径为D:\auto_frame\Outputs\screenshots\login\login_2021_02_18_17_53_23.png
+2021-02-18 17:53:46,796-INFO-log.py-myLog-日志信息:我已经刷新啦
+2021-02-18 18:02:53,087-INFO-log.py-myLog-日志信息:我已经等待啦
+2021-02-18 18:02:53,087-INFO-log.py-myLog-日志信息:等待元素 ('class name', 'Header_loginBtn__3_BKD') 可见
+2021-02-18 18:02:53,109-INFO-log.py-myLog-日志信息:等待结束，等待时常为0.02
+2021-02-18 18:02:53,109-INFO-log.py-myLog-日志信息:查找元素('class name', 'Header_loginBtn__3_BKD')
+2021-02-18 18:02:53,116-INFO-log.py-myLog-日志信息:点击元素：('class name', 'Header_loginBtn__3_BKD')
+2021-02-18 18:02:55,561-INFO-log.py-myLog-日志信息:截屏成功，文件路径为D:\auto_frame\Outputs\screenshots\login\login_2021_02_18_18_02_55.png
+2021-02-18 18:02:55,561-INFO-log.py-myLog-日志信息:查找元素('xpath', '//div[@class="verify-input-wrapper"]/input[@type="text"]')
+2021-02-18 18:02:55,671-INFO-log.py-myLog-日志信息:查找元素('xpath', '//div[@class="verify-input-wrapper"]/input[@type="password"]')
+2021-02-18 18:02:55,737-INFO-log.py-myLog-日志信息:查找元素('class name', 'meo-button')
+2021-02-18 18:02:55,749-INFO-log.py-myLog-日志信息:点击元素：('class name', 'meo-button')
+2021-02-18 18:02:58,144-INFO-log.py-myLog-日志信息:截屏成功，文件路径为D:\auto_frame\Outputs\screenshots\login\login_2021_02_18_18_02_57.png
+2021-02-18 18:02:58,145-INFO-log.py-myLog-日志信息:等待元素 ('class name', 'za-toast__container') 可见
+2021-02-18 18:02:58,165-INFO-log.py-myLog-日志信息:等待结束，等待时常为0.02
+2021-02-18 18:02:58,165-INFO-log.py-myLog-日志信息:查找元素('class name', 'za-toast__container')
+2021-02-18 18:02:58,301-INFO-log.py-myLog-日志信息:我已经刷新啦
+2021-02-18 18:03:00,302-INFO-log.py-myLog-日志信息:我已经等待啦
+2021-02-18 18:03:00,302-INFO-log.py-myLog-日志信息:等待元素 ('class name', 'Header_loginBtn__3_BKD') 可见
+2021-02-18 18:03:00,328-INFO-log.py-myLog-日志信息:等待结束，等待时常为0.03
+2021-02-18 18:03:00,328-INFO-log.py-myLog-日志信息:查找元素('class name', 'Header_loginBtn__3_BKD')
+2021-02-18 18:03:00,337-INFO-log.py-myLog-日志信息:点击元素：('class name', 'Header_loginBtn__3_BKD')
+2021-02-18 18:03:02,758-INFO-log.py-myLog-日志信息:截屏成功，文件路径为D:\auto_frame\Outputs\screenshots\login\login_2021_02_18_18_03_02.png
+2021-02-18 18:03:02,758-INFO-log.py-myLog-日志信息:查找元素('xpath', '//div[@class="verify-input-wrapper"]/input[@type="text"]')
+2021-02-18 18:03:02,850-INFO-log.py-myLog-日志信息:查找元素('xpath', '//div[@class="verify-input-wrapper"]/input[@type="password"]')
+2021-02-18 18:03:02,912-INFO-log.py-myLog-日志信息:查找元素('class name', 'meo-button')
+2021-02-18 18:03:02,919-INFO-log.py-myLog-日志信息:点击元素：('class name', 'meo-button')
+2021-02-18 18:03:05,334-INFO-log.py-myLog-日志信息:截屏成功，文件路径为D:\auto_frame\Outputs\screenshots\login\login_2021_02_18_18_03_04.png
+2021-02-18 18:03:05,334-INFO-log.py-myLog-日志信息:等待元素 ('class name', 'za-toast__container') 可见
+2021-02-18 18:03:05,363-INFO-log.py-myLog-日志信息:等待结束，等待时常为0.03
+2021-02-18 18:03:05,363-INFO-log.py-myLog-日志信息:查找元素('class name', 'za-toast__container')
+2021-02-18 18:03:05,442-INFO-log.py-myLog-日志信息:我已经刷新啦
+2021-02-18 18:03:07,444-INFO-log.py-myLog-日志信息:我已经等待啦
+2021-02-18 18:03:07,444-INFO-log.py-myLog-日志信息:等待元素 ('class name', 'Header_loginBtn__3_BKD') 可见
+2021-02-18 18:03:07,462-INFO-log.py-myLog-日志信息:等待结束，等待时常为0.02
+2021-02-18 18:03:07,462-INFO-log.py-myLog-日志信息:查找元素('class name', 'Header_loginBtn__3_BKD')
+2021-02-18 18:03:07,468-INFO-log.py-myLog-日志信息:点击元素：('class name', 'Header_loginBtn__3_BKD')
+2021-02-18 18:03:09,874-INFO-log.py-myLog-日志信息:截屏成功，文件路径为D:\auto_frame\Outputs\screenshots\login\login_2021_02_18_18_03_09.png
+2021-02-18 18:03:09,874-INFO-log.py-myLog-日志信息:查找元素('xpath', '//div[@class="verify-input-wrapper"]/input[@type="text"]')
+2021-02-18 18:03:09,964-INFO-log.py-myLog-日志信息:查找元素('xpath', '//div[@class="verify-input-wrapper"]/input[@type="password"]')
+2021-02-18 18:03:10,027-INFO-log.py-myLog-日志信息:查找元素('class name', 'meo-button')
+2021-02-18 18:03:10,034-INFO-log.py-myLog-日志信息:点击元素：('class name', 'meo-button')
+2021-02-18 18:03:12,421-INFO-log.py-myLog-日志信息:截屏成功，文件路径为D:\auto_frame\Outputs\screenshots\login\login_2021_02_18_18_03_12.png
+2021-02-18 18:03:35,195-INFO-log.py-myLog-日志信息:我已经刷新啦

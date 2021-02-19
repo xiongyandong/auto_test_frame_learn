@@ -1,0 +1,20 @@
+2021-02-18 12:01:17,900-INFO-log.py-myLog-日志信息:查找元素('xpath', '//a[@class="Header_accountCon__2w8S3"]')
+2021-02-18 12:02:47,841-INFO-log.py-myLog-日志信息:查找元素('xpath', '//a[@class="Header_accountCon__2w8S3"]')
+2021-02-18 12:08:06,001-INFO-log.py-myLog-日志信息:查找元素('xpath', '//a[@class="Header_accountCon__2w8S3"]')
+2021-02-18 12:09:57,911-INFO-log.py-myLog-日志信息:查找元素('xpath', '//a[@class="Header_accountCon__2w8S3"]')
+2021-02-18 12:17:27,664-INFO-log.py-myLog-日志信息:查找元素('xpath', '//a[@class="Header_accountCon__2w8S3"]')
+2021-02-18 14:59:57,208-INFO-log.py-myLog-日志信息:查找元素('xpath', '//a[@class="Header_accountCon__2w8S3"]')
+2021-02-18 15:03:39,270-INFO-log.py-myLog-日志信息:查找元素('xpath', '//a[@class="Header_accountCon__2w8S3"]')
+2021-02-18 15:08:49,296-INFO-log.py-myLog-日志信息:查找元素('xpath', '//a[@class="Header_accountCon__2w8S3"]')
+2021-02-18 17:13:23,163-INFO-log.py-myLog-日志信息:等待元素 ('xpath', '//a[@class="Header_accountCon__2w8S3"]') 可见
+2021-02-18 17:13:23,185-INFO-log.py-myLog-日志信息:等待结束，等待时常为0.02
+2021-02-18 17:13:23,185-INFO-log.py-myLog-日志信息:查找元素('xpath', '//a[@class="Header_accountCon__2w8S3"]')
+2021-02-18 17:20:55,235-INFO-log.py-myLog-日志信息:等待元素 ('xpath', '//a[@class="Header_accountCon__2w8S3"]') 可见
+2021-02-18 17:20:55,255-INFO-log.py-myLog-日志信息:等待结束，等待时常为0.02
+2021-02-18 17:20:55,256-INFO-log.py-myLog-日志信息:查找元素('xpath', '//a[@class="Header_accountCon__2w8S3"]')
+2021-02-18 17:53:25,986-INFO-log.py-myLog-日志信息:等待元素 ('xpath', '//a[@class="123Header_accountCon__2w8S3"]') 可见
+2021-02-18 17:53:46,375-ERROR-log.py-myLog-日志信息:等待元素可见失败！！！
+2021-02-18 17:53:46,732-INFO-log.py-myLog-日志信息:截屏成功，文件路径为D:\auto_frame\Outputs\screenshots\index\index_2021_02_18_17_53_46.png
+2021-02-18 18:03:14,422-INFO-log.py-myLog-日志信息:等待元素 ('xpath', '//a[@class="123Header_accountCon__2w8S3"]') 可见
+2021-02-18 18:03:34,789-ERROR-log.py-myLog-日志信息:等待元素可见失败！！！
+2021-02-18 18:03:35,135-INFO-log.py-myLog-日志信息:截屏成功，文件路径为D:\auto_frame\Outputs\screenshots\index\index_2021_02_18_18_03_34.png

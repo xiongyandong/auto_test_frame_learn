@@ -10,7 +10,7 @@ import os
 
 class MyLog:
     def __init__(self, modulePath):
-        self.logPath = os.path.join(Setting.BaseDir, modulePath)
+        self.logPath = modulePath
         self.my_logger = logging.getLogger('myLog')
         self.fh = logging.FileHandler(self.logPath, encoding='utf-8')
         self.formatter = logging.Formatter("%(asctime)s-%(levelname)s-%(filename)s-%(name)s-日志信息:%(message)s")
@@ -38,4 +38,4 @@ class MyLog:
 
 
 if __name__ == '__main__':
-    MyLog(os.path.dirname(__file__)).my_log('hhhh','ESDAS')
+    MyLog(os.path.dirname(__file__)).my_log('hhhh', 'ESDAS')
