@@ -32,9 +32,6 @@
 #
 # a_function_requiring_decoration()
 # print(a_function_requiring_decoration.__name__)
-from tools.log import MyLog
-
-logs = MyLog(r'D:\auto_frame\Outputs\Logs\SaasWebsites\login\login.log')
 
 
 # def attached(_func):
@@ -62,28 +59,3 @@ logs = MyLog(r'D:\auto_frame\Outputs\Logs\SaasWebsites\login\login.log')
 #     print(loc, doc)
 #
 #
-
-from selenium import webdriver
-import unittest,time
-
-class BaiduTest(unittest.TestCase):
-    def setUp(self) -> None:
-        self.drive = webdriver.Chrome()
-        self.drive.implicitly_wait(30)
-        self.base_url = 'https://www.baidu.com'
-
-    def test_baidu(self):
-        drive = self.drive
-        drive.get(self.base_url)
-        drive.find_element_by_id("kw").clear()
-        drive.find_element_by_id("kw").send_keys("unittest")
-        drive.find_element_by_id("su").click()
-        time.sleep(3)
-        title = drive.title
-        self.assertEqual(title, "unittest_百度搜索")
-
-    def tearDown(self) -> None:
-        self.drive.quit()
-
-if __name__ == '__main__':
-    unittest.main()
