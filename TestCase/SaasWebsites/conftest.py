@@ -15,6 +15,7 @@ import time
 driver = None
 lg =None
 
+
 @pytest.fixture(scope='class')
 def access_web():
     # 前置操作
@@ -22,7 +23,7 @@ def access_web():
     global lg
     print("同一个测试类中所有用例执行前的操作，只执行一次")
     warnings.simplefilter('ignore', ResourceWarning)
-    driver = webdriver.Chrome()
+    driver = webdriver.Chrome(r'C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe')
     driver.maximize_window()
     driver.get(common_data.web_login_url)
     lg = LoginPage(driver, sp.login_log_path, sp.screenshot_path)

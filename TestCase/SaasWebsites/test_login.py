@@ -8,7 +8,6 @@ from data.web_auto_data.SaasWebsites import common_data
 from tools.project_path import SaaSWebsitePath as sp
 import time
 import warnings
-import pytest
 
 
 def test_demo():
