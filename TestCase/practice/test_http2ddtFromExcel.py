@@ -8,11 +8,11 @@ from tools.readConfig import ReadConfig
 CONFIG_PATH = os.path.join(os.path.join(Setting.BaseDir, 'Config'), 'case.config')
 data_path = os.path.join(os.path.join(Setting.BaseDir, 'data\practiceData'),
                          ReadConfig().read_config(CONFIG_PATH, 'WORKBOOK', 'file_name'))
-sheet_name = ReadConfig().read_config(CONFIG_PATH, 'WORKBOOK', 'sheet_name')
-mode = ReadConfig().read_config(CONFIG_PATH, 'MODE', 'mode')
+# sheet_name = ReadConfig().read_config(CONFIG_PATH, 'WORKBOOK', 'sheet_name')
+# mode = ReadConfig().read_config(CONFIG_PATH, 'MODE', 'mode')
 
-test_data_formal = LoadData(data_path, sheet_name).load_excel(mode)
-
+# test_data_formal = LoadData(data_path, sheet_name).load_excel(mode)
+test_data_formal = ''
 
 @ddt
 class TestHttp(unittest.TestCase):

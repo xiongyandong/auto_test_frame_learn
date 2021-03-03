@@ -6,6 +6,7 @@ import os
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+
 class Page:
     """
     page 为基类，所有页面都应继承这个页面 真正框架中basePage应该单独放在common包里面，common包为本框架通用内容，可放在项目顶层目录，如本框架
@@ -65,7 +66,7 @@ class Page:
 
     def get_text(self, loc, doc=''):
         # 获取文本内容
-        ele = self.drive.find_element(loc, doc)
+        ele = self.find_element(loc, doc)
         try:
             return ele.text
         except:
@@ -126,3 +127,6 @@ class Page:
             self.logs.my_log('截屏成功，文件路径为{}'.format(file_name), 'INFO')
         except Exception as e:
             raise e
+
+
+

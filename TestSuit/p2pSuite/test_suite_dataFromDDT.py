@@ -1,10 +1,5 @@
-from BeautifulReport import BeautifulReport
 import unittest
 from TestCase.p2p.test_ddtFromExcel import TestHttp
-import os
-import time
-from Base.setting import Setting
-
 suite = unittest.TestSuite()
 loader = unittest.TestLoader()
 

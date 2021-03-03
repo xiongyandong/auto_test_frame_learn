@@ -1,16 +1,89 @@
-
-
 # tel = '13654541214'
 # a = tel.find('6')
 # print(a)
 
-import datetime
-import time
+#
+# t1 = time.time()
+#
+# time.sleep(2.5)
+# t2 = time.time()
+# t = t2-t1
+# print('{:.2f}'.format(t))
+# print(format(t, '.2f'))
 
-t1 = time.time()
 
-time.sleep(2.5)
-t2 = time.time()
-t = t2-t1
-print('{:.2f}'.format(t))
-print(format(t, '.2f'))
+# def a_new_decorator(a_func):
+#     @wraps(a_func)
+#     def wrapTheFunction():
+#         print("I am doing some boring work before executing a_func()")
+#
+#         a_func()
+#
+#         print("I am doing some boring work after executing a_func()")
+#
+#     return wrapTheFunction
+#
+# @a_new_decorator
+# def a_function_requiring_decoration():
+#     """Hey you! Decorate me!"""
+#     print("I am the function which needs some decoration to "
+#           "remove my foul smell")
+#
+#
+# a_function_requiring_decoration()
+# print(a_function_requiring_decoration.__name__)
+from tools.log import MyLog
+
+logs = MyLog(r'D:\auto_frame\Outputs\Logs\SaasWebsites\login\login.log')
+
+
+# def attached(_func):
+#     # 对basePage中封装的基本元素操作输出日志及截图
+#     @wraps(_func)
+#     def log_with_screenshot(loc, doc):
+#         t1 = time.time()
+#         try:
+#             _func(loc, doc)
+#             time.sleep(2.02)
+#         except Exception as e:
+#             logs.my_log(e, 'ERROR')
+#             # 截图
+#             # saveScreenshot(doc)
+#             raise e
+#         t2 = time.time()
+#         print(t2-t1)
+#
+#     return log_with_screenshot
+#
+#
+# @attached
+# def test(loc, doc):
+#     loc * doc
+#     print(loc, doc)
+#
+#
+
+from selenium import webdriver
+import unittest,time
+
+class BaiduTest(unittest.TestCase):
+    def setUp(self) -> None:
+        self.drive = webdriver.Chrome()
+        self.drive.implicitly_wait(30)
+        self.base_url = 'https://www.baidu.com'
+
+    def test_baidu(self):
+        drive = self.drive
+        drive.get(self.base_url)
+        drive.find_element_by_id("kw").clear()
+        drive.find_element_by_id("kw").send_keys("unittest")
+        drive.find_element_by_id("su").click()
+        time.sleep(3)
+        title = drive.title
+        self.assertEqual(title, "unittest_百度搜索")
+
+    def tearDown(self) -> None:
+        self.drive.quit()
+
+if __name__ == '__main__':
+    unittest.main()

@@ -1,7 +1,8 @@
 # --*-- coding:utf-8 --*--
 import requests
 from tools.log import MyLog
-my_log = MyLog()
+from tools.project_path import ProjectPath
+my_log = MyLog(ProjectPath.p2p_log_path)
 
 class HttpRequest:
     def __init__(self):

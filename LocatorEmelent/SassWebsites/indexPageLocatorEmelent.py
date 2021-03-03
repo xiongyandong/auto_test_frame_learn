@@ -6,4 +6,4 @@
 # @File: indexPageLocatorEmelent.py
 from selenium.webdriver.common.by import By
 
-login_icon = (By.XPATH, '//a[@class="123Header_accountCon__2w8S3"]')
+login_icon = (By.XPATH, '//a[@class="Header_accountCon__2SnB-"]')

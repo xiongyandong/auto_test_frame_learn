@@ -1,7 +1,5 @@
 from Base.base_Page import Page
-
 from LocatorEmelent.SassWebsites.loginPageLocatorEmelent import *
-import time
 
 
 class LoginPage(Page):
@@ -19,4 +17,4 @@ class LoginPage(Page):
 
     def get_errorMsg_from_loginArea(self):
         self.wait_eleVisible(loinNameOrPasswordErrorToast, doc=self.doc)
-        return self.find_element(loinNameOrPasswordErrorToast).text
+        return self.get_text(loinNameOrPasswordErrorToast, self.doc)

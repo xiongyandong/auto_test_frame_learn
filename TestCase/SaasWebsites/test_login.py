@@ -1,16 +1,18 @@
 import unittest
-from ddt import ddt, data, unpack
+from ddt import ddt, data
 from selenium import webdriver
-# from selenium.webdriver.support.wait import WebDriverWait
-# from selenium.webdriver.support import expected_conditions as EC
-# from selenium.webdriver.common.by import By
 from PageObjects.login_page import LoginPage
 from PageObjects.index_page import IndexPage
 from data.web_auto_data.SaasWebsites import login_data
 from data.web_auto_data.SaasWebsites import common_data
-from tools.project_path import SaaSWebsiteLogPath as sp
+from tools.project_path import SaaSWebsitePath as sp
 import time
 import warnings
+import pytest
+
+
+def test_demo():
+    print('我是demo函数.......................')
 
 
 @ddt
@@ -45,6 +47,7 @@ class TestLogin(unittest.TestCase):
     def test_1_wrong_loginName_pwd(self, wrong_data):
         self.lg.login(wrong_data['login_name'], wrong_data['password'])
         self.assertEqual(self.lg.get_errorMsg_from_loginArea(), wrong_data['check'])
+
 
 
 if __name__ == '__main__':
