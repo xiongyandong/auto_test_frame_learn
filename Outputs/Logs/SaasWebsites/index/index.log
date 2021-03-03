@@ -113,3 +113,6 @@
 2021-03-03 14:30:04,347-INFO-log.py-myLog-日志信息:等待元素 ('xpath', '//a[@class="Header_accountCon__2SnB-"]') 可见
 2021-03-03 14:30:04,366-INFO-log.py-myLog-日志信息:等待结束，等待时常为0.02
 2021-03-03 14:30:04,367-INFO-log.py-myLog-日志信息:查找元素('xpath', '//a[@class="Header_accountCon__2SnB-"]')
+2021-03-03 18:12:15,099-INFO-log.py-myLog-日志信息:等待元素 ('xpath', '//a[@class="Header_accountCon__2SnB-"]') 可见
+2021-03-03 18:12:35,282-ERROR-log.py-myLog-日志信息:等待元素可见失败！！！
+2021-03-03 18:12:35,499-INFO-log.py-myLog-日志信息:截屏成功，文件路径为D:\auto_frame\Outputs\screenshots\index\index_2021_03_03_18_12_35.png
