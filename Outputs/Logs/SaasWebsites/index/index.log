@@ -110,3 +110,6 @@
 2021-03-03 11:35:40,284-INFO-log.py-myLog-日志信息:等待元素 ('xpath', '//a[@class="Header_accountCon__2SnB-"]') 可见
 2021-03-03 11:35:40,304-INFO-log.py-myLog-日志信息:等待结束，等待时常为0.02
 2021-03-03 11:35:40,304-INFO-log.py-myLog-日志信息:查找元素('xpath', '//a[@class="Header_accountCon__2SnB-"]')
+2021-03-03 14:30:04,347-INFO-log.py-myLog-日志信息:等待元素 ('xpath', '//a[@class="Header_accountCon__2SnB-"]') 可见
+2021-03-03 14:30:04,366-INFO-log.py-myLog-日志信息:等待结束，等待时常为0.02
+2021-03-03 14:30:04,367-INFO-log.py-myLog-日志信息:查找元素('xpath', '//a[@class="Header_accountCon__2SnB-"]')
