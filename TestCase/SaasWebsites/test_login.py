@@ -20,7 +20,7 @@ class TestLogin(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
         warnings.simplefilter('ignore', ResourceWarning)
-        cls.drive = webdriver.Chrome()
+        cls.drive = webdriver.Chrome(r'C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe')
         cls.drive.maximize_window()
         cls.drive.get(common_data.web_login_url)
         cls.lg = LoginPage(cls.drive, sp.login_log_path, sp.screenshot_path)

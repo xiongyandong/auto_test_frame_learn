@@ -1322,3 +1322,14 @@
 2021-03-03 15:40:30,791-ERROR-log.py-myLog-日志信息:等待元素可见失败！！！
 2021-03-03 15:40:59,885-INFO-log.py-myLog-日志信息:我已经等待啦
 2021-03-03 15:40:59,885-INFO-log.py-myLog-日志信息:等待元素 ('class name', 'Header_loginBtn__1UsX9') 可见
+2021-03-03 15:52:21,217-INFO-log.py-myLog-日志信息:我已经等待啦
+2021-03-03 15:52:21,219-INFO-log.py-myLog-日志信息:等待元素 ('class name', 'Header_loginBtn__1UsX9') 可见
+2021-03-03 15:52:21,246-INFO-log.py-myLog-日志信息:等待结束，等待时常为0.03
+2021-03-03 15:52:21,247-INFO-log.py-myLog-日志信息:查找元素('class name', 'Header_loginBtn__1UsX9')
+2021-03-03 15:52:21,260-INFO-log.py-myLog-日志信息:点击元素：('class name', 'Header_loginBtn__1UsX9')
+2021-03-03 15:52:23,715-INFO-log.py-myLog-日志信息:截屏成功，文件路径为D:\auto_frame\Outputs\screenshots\login\login_2021_03_03_15_52_23.png
+2021-03-03 15:52:23,715-INFO-log.py-myLog-日志信息:查找元素('xpath', '//div[@class="verify-input-wrapper"]/input[@type="text"]')
+2021-03-03 15:52:23,944-INFO-log.py-myLog-日志信息:查找元素('xpath', '//div[@class="verify-input-wrapper"]/input[@type="password"]')
+2021-03-03 15:52:24,054-INFO-log.py-myLog-日志信息:查找元素('class name', 'meo-button')
+2021-03-03 15:52:24,064-INFO-log.py-myLog-日志信息:点击元素：('class name', 'meo-button')
+2021-03-03 15:52:27,674-ERROR-log.py-myLog-日志信息:等待元素点击失败！！！
