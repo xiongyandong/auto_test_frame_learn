@@ -1561,3 +1561,45 @@
 2021-03-04 14:30:29,906-INFO-log.py-myLog-日志信息:点击元素：('class name', 'meo-button')
 2021-03-04 14:30:32,156-INFO-log.py-myLog-日志信息:截屏成功，文件路径为D:\auto_frame\Outputs\screenshots\login\login_2021_03_04_14_30_31.png
 2021-03-04 14:30:54,767-INFO-log.py-myLog-日志信息:我已经刷新啦
+2021-03-04 14:52:25,615-INFO-log.py-myLog-日志信息:我已经等待啦
+2021-03-04 14:52:25,616-INFO-log.py-myLog-日志信息:等待元素 ('class name', 'Header_loginBtn__3_BKD') 可见
+2021-03-04 14:52:25,638-INFO-log.py-myLog-日志信息:等待结束，等待时常为0.02
+2021-03-04 14:52:25,638-INFO-log.py-myLog-日志信息:查找元素('class name', 'Header_loginBtn__3_BKD')
+2021-03-04 14:52:25,644-INFO-log.py-myLog-日志信息:点击元素：('class name', 'Header_loginBtn__3_BKD')
+2021-03-04 14:52:27,903-INFO-log.py-myLog-日志信息:截屏成功，文件路径为D:\auto_frame\Outputs\screenshots\login\login_2021_03_04_14_52_27.png
+2021-03-04 14:52:27,904-INFO-log.py-myLog-日志信息:查找元素('xpath', '//div[@class="verify-input-wrapper"]/input[@type="text"]')
+2021-03-04 14:52:28,007-INFO-log.py-myLog-日志信息:查找元素('xpath', '//div[@class="verify-input-wrapper"]/input[@type="password"]')
+2021-03-04 14:52:28,066-INFO-log.py-myLog-日志信息:查找元素('class name', 'meo-button')
+2021-03-04 14:52:28,075-INFO-log.py-myLog-日志信息:点击元素：('class name', 'meo-button')
+2021-03-04 14:52:30,337-INFO-log.py-myLog-日志信息:截屏成功，文件路径为D:\auto_frame\Outputs\screenshots\login\login_2021_03_04_14_52_30.png
+2021-03-04 14:52:30,337-INFO-log.py-myLog-日志信息:等待元素 ('class name', 'za-toast__container') 可见
+2021-03-04 14:52:30,359-INFO-log.py-myLog-日志信息:等待结束，等待时常为0.02
+2021-03-04 14:52:30,359-INFO-log.py-myLog-日志信息:查找元素('class name', 'za-toast__container')
+2021-03-04 14:52:30,430-INFO-log.py-myLog-日志信息:我已经刷新啦
+2021-03-04 14:52:32,431-INFO-log.py-myLog-日志信息:我已经等待啦
+2021-03-04 14:52:32,431-INFO-log.py-myLog-日志信息:等待元素 ('class name', 'Header_loginBtn__3_BKD') 可见
+2021-03-04 14:52:32,555-INFO-log.py-myLog-日志信息:等待结束，等待时常为0.12
+2021-03-04 14:52:32,555-INFO-log.py-myLog-日志信息:查找元素('class name', 'Header_loginBtn__3_BKD')
+2021-03-04 14:52:32,585-INFO-log.py-myLog-日志信息:点击元素：('class name', 'Header_loginBtn__3_BKD')
+2021-03-04 14:52:34,904-INFO-log.py-myLog-日志信息:截屏成功，文件路径为D:\auto_frame\Outputs\screenshots\login\login_2021_03_04_14_52_34.png
+2021-03-04 14:52:34,904-INFO-log.py-myLog-日志信息:查找元素('xpath', '//div[@class="verify-input-wrapper"]/input[@type="text"]')
+2021-03-04 14:52:34,992-INFO-log.py-myLog-日志信息:查找元素('xpath', '//div[@class="verify-input-wrapper"]/input[@type="password"]')
+2021-03-04 14:52:35,045-INFO-log.py-myLog-日志信息:查找元素('class name', 'meo-button')
+2021-03-04 14:52:35,051-INFO-log.py-myLog-日志信息:点击元素：('class name', 'meo-button')
+2021-03-04 14:52:37,305-INFO-log.py-myLog-日志信息:截屏成功，文件路径为D:\auto_frame\Outputs\screenshots\login\login_2021_03_04_14_52_37.png
+2021-03-04 14:52:37,305-INFO-log.py-myLog-日志信息:等待元素 ('class name', 'za-toast__container') 可见
+2021-03-04 14:52:37,321-INFO-log.py-myLog-日志信息:等待结束，等待时常为0.02
+2021-03-04 14:52:37,321-INFO-log.py-myLog-日志信息:查找元素('class name', 'za-toast__container')
+2021-03-04 14:52:37,396-INFO-log.py-myLog-日志信息:我已经刷新啦
+2021-03-04 14:52:39,398-INFO-log.py-myLog-日志信息:我已经等待啦
+2021-03-04 14:52:39,398-INFO-log.py-myLog-日志信息:等待元素 ('class name', 'Header_loginBtn__3_BKD') 可见
+2021-03-04 14:52:39,417-INFO-log.py-myLog-日志信息:等待结束，等待时常为0.02
+2021-03-04 14:52:39,417-INFO-log.py-myLog-日志信息:查找元素('class name', 'Header_loginBtn__3_BKD')
+2021-03-04 14:52:39,425-INFO-log.py-myLog-日志信息:点击元素：('class name', 'Header_loginBtn__3_BKD')
+2021-03-04 14:52:41,686-INFO-log.py-myLog-日志信息:截屏成功，文件路径为D:\auto_frame\Outputs\screenshots\login\login_2021_03_04_14_52_41.png
+2021-03-04 14:52:41,686-INFO-log.py-myLog-日志信息:查找元素('xpath', '//div[@class="verify-input-wrapper"]/input[@type="text"]')
+2021-03-04 14:52:41,807-INFO-log.py-myLog-日志信息:查找元素('xpath', '//div[@class="verify-input-wrapper"]/input[@type="password"]')
+2021-03-04 14:52:41,878-INFO-log.py-myLog-日志信息:查找元素('class name', 'meo-button')
+2021-03-04 14:52:41,890-INFO-log.py-myLog-日志信息:点击元素：('class name', 'meo-button')
+2021-03-04 14:52:44,152-INFO-log.py-myLog-日志信息:截屏成功，文件路径为D:\auto_frame\Outputs\screenshots\login\login_2021_03_04_14_52_43.png
+2021-03-04 14:53:07,027-INFO-log.py-myLog-日志信息:我已经刷新啦
