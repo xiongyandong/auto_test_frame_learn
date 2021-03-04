@@ -26,9 +26,8 @@ class TestLogin(unittest.TestCase):
         options.add_argument('disable-infobars')
         options.add_argument('--disable-extensions')
         options.add_argument('--no-sandbox')
-        options.binary_location = r'C:\Program Files (x86)\Google\Chrome\Application\chrome.exe'
-        cls.drive = webdriver.Chrome(executable_path=r'C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe',
-                                  options=options)
+        # options.binary_location = r'C:\Program Files (x86)\Google\Chrome\Application\chrome.exe'
+        cls.drive = webdriver.Chrome()
         cls.drive.maximize_window()
         cls.drive.get(common_data.web_login_url)
         cls.lg = LoginPage(cls.drive, sp.login_log_path, sp.screenshot_path)

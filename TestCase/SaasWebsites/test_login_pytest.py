@@ -11,10 +11,10 @@ import warnings
 import pytest
 
 
-# @pytest.mark.py
+# @pytest.mark.demo
 # def test_demo():
 #     print('我是demo函数.......................')
-#     assert False
+#     assert True
 
 
 @pytest.mark.py
