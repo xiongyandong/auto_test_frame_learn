@@ -24,9 +24,11 @@ def access_web():
     print("同一个测试类中所有用例执行前的操作，只执行一次")
     warnings.simplefilter('ignore', ResourceWarning)
     options = webdriver.ChromeOptions()
-    options.headless = True
+    options.add_argument('--headless')
+    options.add_argument('--no-sandbox')
+    options.add_argument('--disable-dev-shm-usage')
     options.binary_location = r'C:\Program Files (x86)\Google\Chrome\Application\chrome.exe'
-    driver = webdriver.Chrome(executable_path=r'C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe', chrome_options=options)
+    driver = webdriver.Chrome(executable_path=r'C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe', options=options)
     driver.maximize_window()
     driver.get(common_data.web_login_url)
     lg = LoginPage(driver, sp.login_log_path, sp.screenshot_path)

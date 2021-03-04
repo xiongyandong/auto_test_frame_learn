@@ -21,10 +21,12 @@ class TestLogin(unittest.TestCase):
     def setUpClass(cls) -> None:
         warnings.simplefilter('ignore', ResourceWarning)
         options = webdriver.ChromeOptions()
-        options.headless = True
+        options.add_argument('--headless')
+        options.add_argument('--no-sandbox')
+        options.add_argument('--disable-dev-shm-usage')
         options.binary_location = r'C:\Program Files (x86)\Google\Chrome\Application\chrome.exe'
-        cls.driver = webdriver.Chrome(executable_path=r'C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe',
-                                  chrome_options=options)
+        cls.drive = webdriver.Chrome(executable_path=r'C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe',
+                                  options=options)
         cls.drive.maximize_window()
         cls.drive.get(common_data.web_login_url)
         cls.lg = LoginPage(cls.drive, sp.login_log_path, sp.screenshot_path)
