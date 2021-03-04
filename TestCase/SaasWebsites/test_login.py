@@ -22,7 +22,8 @@ class TestLogin(unittest.TestCase):
         warnings.simplefilter('ignore', ResourceWarning)
         options = webdriver.ChromeOptions()
         options.headless = True
-        cls.driver = webdriver.Chrome(r'C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe',
+        options.binary_location = r'C:\Program Files (x86)\Google\Chrome\Application\chrome.exe'
+        cls.driver = webdriver.Chrome(executable_path=r'C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe',
                                   chrome_options=options)
         cls.drive.maximize_window()
         cls.drive.get(common_data.web_login_url)

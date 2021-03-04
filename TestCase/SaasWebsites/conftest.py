@@ -25,7 +25,8 @@ def access_web():
     warnings.simplefilter('ignore', ResourceWarning)
     options = webdriver.ChromeOptions()
     options.headless = True
-    driver = webdriver.Chrome(r'C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe', chrome_options=options)
+    options.binary_location = r'C:\Program Files (x86)\Google\Chrome\Application\chrome.exe'
+    driver = webdriver.Chrome(executable_path=r'C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe', chrome_options=options)
     driver.maximize_window()
     driver.get(common_data.web_login_url)
     lg = LoginPage(driver, sp.login_log_path, sp.screenshot_path)
