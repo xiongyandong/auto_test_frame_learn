@@ -21,8 +21,9 @@ class TestLogin(unittest.TestCase):
     def setUpClass(cls) -> None:
         warnings.simplefilter('ignore', ResourceWarning)
         options = webdriver.ChromeOptions()
-        options.add_argument('--headless')
-        cls.drive = webdriver.Chrome(r'C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe')
+        options.headless = True
+        cls.driver = webdriver.Chrome(r'C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe',
+                                  chrome_options=options)
         cls.drive.maximize_window()
         cls.drive.get(common_data.web_login_url)
         cls.lg = LoginPage(cls.drive, sp.login_log_path, sp.screenshot_path)
